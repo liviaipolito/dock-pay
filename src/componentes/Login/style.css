@@ -1,0 +1,140 @@
+  *{
+    background: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  root{
+    background-color: white;
+  }
+  .caixa-login{
+    position: absolute;
+    top:25%;
+    left: 14%;
+  }
+
+  
+  .texto-sub h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  .texto-sub #nome{
+    color: #4ED2AD;
+  }
+  
+  .texto-sub #subtitulo{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7A7A7A;
+    margin-top: -8px;
+    margin-bottom: 20px;
+  }
+  
+  .campo-info input{
+    border-left: none;
+    border-right: none;  
+    border-top: none;
+    margin-bottom: 23px;
+    border-radius: 2px;
+    margin-left: 40px;
+    width: 320px;
+    outline: 0;
+  }
+  
+  .campo-sub-info{
+    display: flex;
+    align-items: center;
+  }
+  
+  .campo-sub-info input{
+    width: 16.57px;
+    height: 15.93px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .campo-sub-info #lembrar{
+    font-size: 12px;
+    display:flex;
+    align-items: center;
+  }
+  
+  .campo-sub-info a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  
+  .campo-sub-info #btPassword{
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline; 
+    background: none;
+    padding-left: 85px;
+    cursor: pointer;
+  }
+  
+  .entrar{
+    margin-left: 35px;
+    padding-top: 28px;
+  }
+  
+  .entrar #btEntrar{
+    background: linear-gradient(90deg, #3ED5AA 0%, #2FB791 100%);
+    border-radius: 6px;
+    border: none;
+    width: 328px;
+    height: 39px;
+    left: 200px;
+    top: 591px;
+    color: #ffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 7px;
+    transition: all .5s;
+    cursor: pointer;
+  }
+  
+  .entrar #btEntrar:hover{
+    background: linear-gradient(180deg, #3ED5AA 0%, #2FB791 100%);
+    transition: all .5s;
+  }
+  
+  .cadastrar a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 50px;
+  }
+  
+  .cadastrar span{
+    font-weight: bold;
+    cursor:pointer;
+  }
+  
+  .imagem img{
+    position: fixed;
+    right:0;
+    top: 0;
+    width: 42.5%;
+  }
+  
+  .logo-login{
+    margin-top: 50px;
+    margin-left: 60px;
+  }

@@ -1,0 +1,328 @@
+*{
+    background: #DDEEE9;
+    font-family: Poppins;
+  }
+  
+  #caixa-fatura{
+    position: relative;
+    background-color: #ECF9F5;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 1030px;
+    height: 615px;
+    padding: 16px 30px 30px 40px;
+    margin-top:-480px;
+    margin-bottom: 35px;
+    border-radius: 35px;
+  }
+  
+  
+  .conteudo-fatura #titulo{
+    position: absolute;
+    margin-top: 2%;
+    background: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+  }
+  
+  
+  .conteudo-fatura .meses{
+    background:none;
+    margin-top: 5%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3px;
+    gap: 20px;
+  }
+  
+  
+  .conteudo-fatura .meses p{
+    background: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  
+  .conteudo-fatura #mes-set{
+    color: #4ED2AD;
+  }
+  
+  
+  
+  .conteudo-fatura .valor-fatura{
+    position: absolute;
+    margin-top: 15%;
+    background:none;
+  }
+  
+  .conteudo-fatura .valor-fatura .status{
+    background: none;
+    margin-left: 10px;
+    display: flex;
+    border-left: 3px solid #2FB791;
+    padding-left: 10px;
+    padding-top: 8px;
+
+      
+  }
+  
+  .conteudo-fatura .valor-fatura .status img{
+    background:none;
+    margin-top: -52px;
+  
+  }
+  
+  .conteudo-fatura .valor-fatura .status h5{
+    background:none;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 1px;
+  }
+  
+  .conteudo-fatura .valor-fatura .status p{
+    background:none;
+    display: flex;
+    margin-top: 30px;
+    margin-left: -55%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  
+  .valor-fatura p{
+    background:none;
+  }
+  
+  .valor-fatura #ajuste{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left:10px;
+  }
+  
+  .valor-fatura #ajuste span{
+    background:none;
+    font-weight: 600;
+  }
+  
+  .conteudo-fatura .servicos-fatura{
+    position: absolute;
+    margin-top: 35%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    background:none;
+  }
+  
+  .conteudo-fatura .servicos-fatura button{
+    width: 58px;
+    height: 58px;
+    background: linear-gradient(90deg, #3ED5AA 0%, #2FB791 100%);
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+  }
+  
+  .conteudo-fatura .servicos-fatura button:hover{
+    background: linear-gradient(180deg, #30b590 0%, #229b79 100%);
+  }
+  
+  .conteudo-fatura .servicos-fatura img{
+    background: none;
+    padding-top: 5px;
+  }
+  
+  .conteudo-fatura .servicos-fatura p{
+    position: absolute;
+    background:none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    text-align: center;
+    width: 10px;
+  }
+  
+  .conteudo-fatura .servicos-fatura .antecipar{
+    background:none;
+  }
+  .conteudo-fatura .servicos-fatura .automatico{
+    background:none;
+  }
+  .conteudo-fatura .servicos-fatura .parcelar{
+    background:none;
+  }
+  
+  
+  .conteudo-fatura .extrato{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 35%;;
+      background:none;
+  }
+  
+  .conteudo-fatura .extrato .cabecalho{
+    background:none;
+  }
+  
+  
+  
+  
+  .conteudo-fatura .extrato .cabecalho #mes{
+    position: absolute;
+    background: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+  }
+    
+  .conteudo-fatura .extrato .cabecalho button{
+    background:none;
+    margin-left: 280%;
+    margin-top: 25px;
+    width: 141px;
+    height: 27px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .conteudo-fatura .extrato .cabecalho img{
+    background: none;
+    padding-left: 8px;
+    cursor:pointer;
+  }
+  
+  
+  
+  
+  .conteudo-fatura .corpo{
+    margin-top: 35%;
+    position: absolute;
+    background:none;
+    width: 530px;
+    gap: 30px;
+  }
+  
+  .conteudo-fatura .corpo .uber{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #D9D9D9;
+    gap: 35px;
+    padding-left:5px;
+  }
+  
+  
+  .conteudo-fatura .corpo .faculdade{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #D9D9D9;
+    gap: 35px;
+    background:none;
+  }
+  
+  .conteudo-fatura .corpo .celular{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #D9D9D9;
+    gap: 35px;
+    background:none;
+    padding-left: 7px;
+  }
+  
+  .conteudo-fatura .corpo .roupa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #D9D9D9;
+    gap: 35px;
+    background:none;
+  }
+  
+  .conteudo-fatura .corpo .comida{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #D9D9D9;
+    gap: 35px;
+    background:none;
+  }
+  
+  .conteudo-fatura .corpo h5{
+    margin-left: -20px;
+    background:none;
+  }
+  
+  .conteudo-fatura .corpo img{
+    background:none;
+  }
+  
+  .conteudo-fatura .corpo a{
+    background:none;
+    color: #999999;
+  }
+  
+  .conteudo-fatura .corpo p{
+    background:none;
+    font-weight: 600;
+  }
+  
+  .conteudo-fatura .corpo .uber h5{
+    padding-right: 40px;
+  }
+  
+  .conteudo-fatura .corpo .celular h5{
+    padding-right: 25px;
+  }
+  
+  .conteudo-fatura .corpo .roupa h5{
+    padding-right: 28px;
+  }
+  
+  .conteudo-fatura .corpo .comida h5{
+    padding-right: 24px;
+  }
+  
+  .conteudo-fatura .corpo #pontos{
+    cursor:pointer;
+  }
+  
+  .conteudo-fatura .rodape{
+    position: absolute;
+    margin-top: 280%;
+    margin-left: 320px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background:none;
+  }
+  
+  .conteudo-fatura .rodape button{
+    width: 160px;
+    height: 38px;
+    background: #4ED2AD;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .conteudo-fatura .rodape img{
+    background: none;
+    cursor: pointer;
+  }
+  
+  .conteudo-fatura .rodape button:hover{
+    background: linear-gradient(180deg, #30b590 0%, #229b79 100%);
+  }

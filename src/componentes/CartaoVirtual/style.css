@@ -1,0 +1,166 @@
+*{
+    font-family: Poppins;
+  }
+  
+  #caixa-cartao{
+    position: relative;
+    background-color: #ECF9F5;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 1030px;
+    height: 570px;
+    padding: 16px 30px 30px 40px;
+    margin-top:-480px;
+    margin-bottom: 35px;
+    border-radius: 35px;
+  }
+  
+  .conteudo-cartao h4{
+    position: absolute;
+    margin-top: 2%;
+    background: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+  }
+  
+  .conteudo-cartao .cartoes{
+    position: absolute;
+    background: none;
+    margin-top: 7%;
+  }
+  
+  .conteudo-cartao .cartoes img{
+    background:none;
+    margin-right: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .conteudo-cartao .cartoes button{
+    display: flex;
+    flex-direction: column;
+    width: 161px;
+    height: 37px;
+    background: #4ED2AD;
+    border-radius: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    align-items: center;
+    border: none;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  
+  .conteudo-cartao .cartoes button:hover{
+    background: #279676;
+  }
+  
+  .conteudo-cartao .limite{
+    position: absolute;
+    margin-top: 32%;
+    background: none;
+  }
+  
+  .conteudo-cartao .limite p{
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 3px;
+    background:none; 
+    margin-bottom:0px;
+  }
+  
+  .conteudo-cartao .limite span{
+      font-weight: 600;
+      background: none;
+  }
+  
+  .conteudo-cartao .limite #inf-limite{
+    display: flex;
+    flex-direction: row;
+    gap: 57%;
+    background:none;
+    margin-top:-14px;
+  }
+  
+  .conteudo-cartao .question{
+    position: absolute;
+    margin-top: 44%;
+    display: flex;
+    flex-direction: row;
+      background: none;
+  
+  }
+  
+  .conteudo-cartao .question img{
+    background: none;
+    cursor: pointer;
+  }
+  
+  
+  .conteudo-cartao .question p{
+    background:none;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .conteudo-cartao .bts-lateral{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background:none;
+  }
+  
+  .conteudo-cartao .bts-lateral button{
+    width: 58px;
+    height: 58px;
+    background: linear-gradient(90deg, #3ED5AA 0%, #2FB791 100%);
+    border-radius: 20px;
+    border: none;
+    cursor:pointer;
+  }
+  
+  .conteudo-cartao .bts-lateral button:hover{
+    background: #279676;
+  }
+  
+  .conteudo-cartao .bts-lateral img{
+    background:none;
+  }
+  
+  .conteudo-cartao .bts-lateral #ajuste{
+    padding-top:2px;
+  }
+  
+  .conteudo-cartao .bts-lateral .teste {
+    background:none;
+    display: flex;
+    align-items: center;
+  }
+  .conteudo-cartao .bts-lateral .teste label{
+    background:none;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 16px;
+  
+  }
+  
+  .conteudo-cartao .add{
+    position: absolute;
+    margin-top: 2%;
+    background: none; 
+    margin-left: 88%
+  }
+  
+  .conteudo-cartao .add button{
+    border:none;
+    background:none;
+  }
+  
+  .conteudo-cartao .add img{
+    background:none;
+    cursor: pointer;
+  }

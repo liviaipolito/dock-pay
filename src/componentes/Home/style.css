@@ -1,0 +1,368 @@
+  *{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+  }
+
+  /* parte superior */
+
+
+  
+  .home-pagina{
+    margin-left:70px;
+    margin-top:30px;
+    font-family: 'Poppins';
+  }
+
+
+  
+  .superior .menu{
+    position: absolute;
+    width: 530px;
+    left: 280px;
+    top: 39px;
+  }
+  
+  .superior .menu button{
+    margin-left: 15px;
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .superior .menu button:hover{
+    color: #4ED2AD;
+    transition: all 0.2s;
+  }
+  
+  .superior .entrar{
+    position: absolute;
+    font-size: 16px;
+    left:1000px;
+    top: 10px;
+    background: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  
+  .superior .entrar #btEntrar:hover{
+    background-color: #1e9974;
+    transition: all 0.2s; 
+  }
+  
+
+  .superior .entrar #btEntrar{
+    background: #4ED2AD;
+    border-radius: 10px;
+    width: 114px;
+    height: 33px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .superior .entrar #link{
+    background: none;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  
+  .superior .entrar #btContato:hover{
+    color: #4ED2AD;
+    border-color: #4ED2AD ;
+    transition: all 0.2s; 
+  }
+  
+  .superior .entrar #btContato{
+    background: #DEFFF6;
+    border-radius: 10px;
+    width: 114px;
+    height: 33px;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  
+  .superior .main{
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+  
+  .superior .titulo{
+    width: 610px;
+    height: 162px;
+  }
+  
+  .superior .titulo h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+  }
+  
+  .superior .titulo h2 span{
+    color: #4ED2AD;
+  }
+  
+  .superior .subtitulo{
+    width: 517px;
+    height: 52px;
+  }
+  
+  .superior .subtitulo p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7A7A7A;
+  }
+  
+  .superior .cadastro button{
+    width: 223px;
+    height: 53px;
+  /*   left: 121px; */
+    top: 513px;
+    background: #4ED2AD;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .superior .cadastro button:hover{
+    background-color: #1e9974;
+    transition: all 0.2s;  
+  }
+  
+  
+  .superior .fundo-verde{
+    position: absolute;
+    width: 715px;
+    height: 561px;
+    right: 0;
+    top: 0px;
+  }
+  
+  .superior .cards-home img{
+    position: absolute;
+    width: 65%;
+    left: 407px;
+    top: 61px;
+    background: none;
+  }
+  
+  /* divisor do meio */
+  
+  .meio img{
+    margin-top: 10%;
+    margin-left: -150px;
+    width: 80%;
+  }
+  
+  /* parte inferior*/
+  /*beneficios*/
+  
+  .inferior .titulo-bene{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding:60px;
+  }
+  
+  .inferior .titulo-bene h3{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: -15px;
+  }
+  
+  .inferior .titulo-bene p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7A7A7A;
+  }
+  
+  .inferior .beneficios h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .inferior .beneficios a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7A7A7A;
+  }
+  
+  /* card tarifa */
+  
+  .inferior .tarifa img{
+    position: absolute;
+    left: 90px;
+    top: 955px;
+  }
+  
+  .inferior .beneficios .tarifa h4{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 180px;
+    top: 940px;
+  }
+  
+  .inferior .beneficios .tarifa a{
+    position: absolute;
+    width: 240px;
+    height: 36px;
+    left: 180px;
+    top: 988px;
+  }
+  
+  /* card transacao */
+  
+  .inferior .transacao img{
+    position: absolute;
+    left: 500px;
+    top: 955px;
+  }
+  
+  .inferior .beneficios .transacao h4{
+    position: absolute;
+    width: 179px;
+    height: 2px;
+    left: 590px;
+    top: 940px;
+  }
+  
+  .inferior .beneficios .transacao a{
+    position: absolute;
+    width: 240px;
+    height: 36px;
+    left: 590px;
+    top: 988px;
+  }
+  
+  /* card cartao*/
+  
+  .inferior .cartao img{
+    position: absolute;
+    left: 900px;
+    top: 955px;
+  }
+  
+  .inferior .beneficios .cartao h4{
+    position: absolute;
+    width: 179px;
+    height: 2px;
+    left: 990px;
+    top: 940px;
+  }
+  
+  .inferior .beneficios .cartao a{
+    position: absolute;
+    width: 240px;
+    height: 36px;
+    left: 990px;
+    top: 988px;
+  }
+  
+  /* card rendimento */
+  
+  .inferior .rendimento img{
+    position: absolute;
+    left: 90px;
+    top: 1100px;
+  }
+  
+  .inferior .beneficios .rendimento h4{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 180px;
+    top: 1085px;
+  }
+  
+  .inferior .beneficios .rendimento a{
+    position: absolute;
+    width: 240px;
+    height: 36px;
+    left: 180px;
+    top: 1130px;
+  }
+  
+  
+  /* card cashback */
+  
+  .inferior .cashback img{
+    position: absolute;
+    left: 500px;
+    top: 1100px;
+  }
+  
+  .inferior .beneficios .cashback h4{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 590px;
+    top: 1085px;
+  }
+  
+  .inferior .beneficios .cashback a{
+    position: absolute;
+    width: 240px;
+    height: 36px;
+    left: 590px;
+    top: 1130px;
+  }
+  
+  /* card sonhos */
+  
+  .inferior .sonhos img{
+    position: absolute;
+    left: 900px;
+    top: 1100px;
+  }
+  
+  .inferior .beneficios .sonhos h4{
+    position: absolute;
+    width: 131px;
+    height: 24px;
+    left: 990px;
+    top: 1085px;
+  }
+  
+  .inferior .beneficios .sonhos a{
+    position: absolute;
+    width: 250px;
+    height: 36px;
+    left: 990px;
+    top: 1130px;
+  }
+  
+  .inferior .beneficios{
+    position: absolute;
+    margin-top: -70%;
+    margin-left: -70px;
+  }
+  
+  .espacamento{
+    margin-top: 300px;
+  }
